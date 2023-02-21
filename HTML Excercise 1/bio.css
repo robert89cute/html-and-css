@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://www.careergirls.org/wp-content/uploads/2015/06/Computer_Programmer1920X10180.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+header{
+    font-size: xx-large;
+    text-align: center;
+    background-color: salmon;
+    color: whitesmoke
+}
+#body {
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px
+
+}
+img {
+   
+  margin-left: 300px;
+  
+}
+#profile {
+    float: center;
+    width: 30%;
+}
+#profile h3{
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 250px;
+}
