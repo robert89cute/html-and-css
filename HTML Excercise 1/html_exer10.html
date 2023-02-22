@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Employee Interests Survey Form</h1>
+    <form action="url_after_submission_here" style="text-align: center;">
+        <label for="name">Enter your name: </label>
+        <input id="name" type="text" name="name"><br/><br/>
+        <label for="department">Enter your department: </label>
+        <input id="department" type="text" name="department"><br/><br/>
+        <label for="about_yourself">Tell us a little about yourself: </label>
+        <textarea id="about_yourself" rows="5" cols="30" name="about_yourself"></textarea><br/><br/>
+    <br>
+        
+            Do you exercise at home?
+            <input type="radio" id="yes" name="yes-no" value="yes" che> <label for="yes">Yes</label>
+            <input type="radio" id="no" name="yes-no" value="no"> <label for="no">No</label>
+        
+    <br><br>
+    
+            How do you like to read about your favorite topics?<br>
+            <input type="checkbox" id="books" name="fave_topics" value="books" checked> <label for="books">Books</label>
+            <input type="checkbox" id="online_resources" name="fave_topics" value="online_resources"> <label for="online_resources">Online resources</label>
+            <input type="checkbox" id="phone_apps" name="fave_topics" value="phone_apps"><label for="phone_apps">Phone apps</label>
+            <input type="checkbox" id="magazines" name="fave_topics" value="magazines"><label for="magazines">Magazines</label>
+    <br><br>
+        <label for="movie_genres">What genre of moveis do you like? </label>
+        <select id="movie_genres" name="movie_genres" size="1">
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+            <option value="thriller" selected>Thriller</option>
+            <option value="sci-fi">Sci-Fi</option>
+        </select>
+        <br/><br/>
+        <input type="submit" value="Submit Form">
+        </form>
+
+</body>
+</html>
