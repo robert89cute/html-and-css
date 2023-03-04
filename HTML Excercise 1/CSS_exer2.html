@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>CSS Challenge 2</title>
+    <style>
+      body{
+        background-color: rgb(243, 171, 103);
+      }
+      #wrap{
+        background-color: rgb(245, 250, 205);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 12px;
+        border: 3px solid black;
+        border-style: dashed;
+        width: 480px;
+        height: 400px;
+        margin: auto;  
+      }
+      h1 {
+        border: 3px solid black;
+        border-style: dashed;
+        margin-top: -3px;
+        width: 480px;
+        font-weight: 900;
+        margin-left: -3px;
+      }
+      p.first {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .quotes p::first-letter{
+        font-size: 16px;
+        line-height: 0.1;
+        font-weight: 600;
+      }
+      .quotes p{
+        font-style: italic;
+        line-height: 0.5;
+      }
+      
+    </style>
+  </head>
+  <body></body>
+    <div id="wrap">
+      <h1><i>Shakespeare's Sonnet #18</i></h1>
+      <p class="first">
+        This is one of the most famous of the sonnets. It is referenced in the
+        film Dead Poets Society and gave names to the band The Darling Buds and
+        the book and television series The Darling Buds of May. Read it and
+        weep!
+      </p>
+      <div class="quotes">
+        <p>
+         Shall I compare thee to a summer's day?</p>
+         <p>Thou art more lovely and more temperate:</p>
+         <p>Rough winds do shake the darling buds of May,</p>
+         <p>And summer's lease hath all too short a date:</p>
+         <p>Sometime too hot the eye of heaven shines,</p>
+         <p>And often is his gold complexion dimm'd,</p>
+         <p>And every fair from fair sometime declines,</p>
+         <p>By chance, or nature's changing course untrimm'd:</p>
+         <p>But thy eternal summer shall not fade,</p>
+         <p>Nor lose possession of that fair thou ow'st,</p>
+         <p>Nor shall death brag thou wander'st in his shade,</p>
+         <p>When in eternal lines to time thou grow'st,</p>
+         <p>So long as men can breathe, or eyes can see,</p>
+         <p>So long lives this, and this gives life to thee.</p>
+        
+      </div>
+
+      <p class="copyright">
+        <br>
+        See the
+        <a href="http://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets">
+          Shakespeare's sonnets</a
+        >
+        Wikipedia article for more information
+      </p>
+    </div>
+  </body>
+</html>
